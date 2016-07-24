@@ -5,7 +5,7 @@ import Hop exposing (makeUrl, makeUrlFromLocation, matchUrl, setQuery)
 import Hop.Types exposing (Config, Query, Location, PathMatcher, Router)
 
 import Router.Routes exposing (Route(..))
-import Router.Views.Matchers exposing (matchers)
+import Router.Routes.Matchers exposing (matchers)
 
 import Application.Model exposing (Model)
 import Application.Types exposing (Msg(..))
