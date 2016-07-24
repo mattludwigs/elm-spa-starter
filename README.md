@@ -1,5 +1,12 @@
 # Elm SPA starter kit
 
-Some thoughts on getting an Elm SPA going.
+## src
 
-Updates will be happening a lot for a while, WIP.
+This is where your Elm code lives
+
+
+## static
+
+this is were JS, CSS, and other files will live
+
+## tests this is where testing lives
