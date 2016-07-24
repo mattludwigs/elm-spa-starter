@@ -7,7 +7,7 @@ import Application.Types exposing (Msg(..))
 import Router.Routes exposing (Route(..))
 
 
-import Components.Menu as Menu
+import Components.Menu.View as Menu
 
 import Views.AppView as AppView
 

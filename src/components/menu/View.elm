@@ -1,4 +1,4 @@
-module Components.Menu exposing (view)
+module Components.Menu.View exposing (view)
 
 import Html exposing (Html, div, ul, li, text)
 import Html.Events exposing (onClick)
