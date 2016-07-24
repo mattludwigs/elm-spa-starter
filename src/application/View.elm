@@ -9,7 +9,7 @@ import Router.Routes exposing (Route(..))
 
 import Components.Menu as Menu
 
-import Views.Index as IndexView
+import Views.AppView as AppView
 
 view : Model -> Html Msg
 view model =
@@ -20,21 +20,5 @@ view model =
     div
       []
       [ Menu.view model
-      , pageView model
+      , AppView.view model
       ]
-
-
-{-
-  pageView
--}
-pageView : Model -> Html Msg
-pageView model =
-  case model.route of
-    IndexRoute ->
-      IndexView.view model
-
-    AboutRoute ->
-      div [] [ h1 [] [ text "About!"] ]
-
-    NotFoundRoute ->
-      div [] [ h1 [] [ text "404" ] ]
